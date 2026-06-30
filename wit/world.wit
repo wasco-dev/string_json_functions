@@ -1,4 +1,4 @@
-package betty-blocks:string-json-functions@1.0.0;
+package wasco-dev:string-json-functions@1.0.0;
 
 interface string-json {
     type json-string = string;

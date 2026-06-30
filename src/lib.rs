@@ -1,6 +1,6 @@
 wit_bindgen::generate!({ generate_all });
 
-use crate::exports::betty_blocks::string_json_functions::string_json::Guest;
+use crate::exports::wasco_dev::string_json_functions::string_json::Guest;
 
 struct Component;
 
