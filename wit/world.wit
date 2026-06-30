@@ -1,0 +1,13 @@
+package betty-blocks:string-json-functions@1.0.0;
+
+interface string-json {
+    type json-string = string;
+
+    stringify: func(value: json-string) -> string;
+    parse-json: func(input: string) -> json-string;
+    form-urlencoded-parse: func(input: string) -> json-string;
+}
+
+world main {
+    export string-json;
+}
